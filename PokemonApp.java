@@ -99,6 +99,25 @@ public class PokemonApp {
             System.out.println("Error: Pokémon no encontrado en los datos.");
         }
     }
+
+        /**
+     * Retorna la colección completa de Pokémon.
+     *
+     * @return el mapa de Pokémon.
+     */
+    public Map<String, Pokemon> getPokemonMap() {
+        return pokemonMap;
+    }
+
+    /**
+     * Retorna la colección personalizada del usuario.
+     *
+     * @return el mapa de la colección del usuario.
+     */
+    public Map<String, Pokemon> getUserCollection() {
+        return userCollection;
+    }
+
     
     /**
      * Muestra los datos completos de un Pokémon buscado por nombre.

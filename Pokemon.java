@@ -159,6 +159,7 @@ public class Pokemon implements Serializable {
         return false;
     }
     
+    
     /**
      * Retorna una representación en forma de cadena del Pokémon con todos sus atributos.
      *
